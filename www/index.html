@@ -64,6 +64,7 @@
                     document.getElementById('btn').addEventListener('click', app.takephoto);
                 },
                 takephoto: function(){
+                    alert("clicked");
                     let opts = {
                         quality: 80,
                         destinationType: Camera.DestinationType.FILE_URI,
